@@ -3,6 +3,8 @@ using StocksApp.Models;
 using Microsoft.Extensions.Options;
 using StocksApp;
 using StocksApp.Interfaces;
+using System.Security.Cryptography.X509Certificates;
+using System.Text.Json;
 
 namespace StocksApp.Controllers
 {
@@ -32,17 +34,23 @@ namespace StocksApp.Controllers
 
             Dictionary<string, object> stockQuoteDictionary = await _finnhubService.GetStockPriceQuote(_tradingOptions.DefaultStockSymbol);
 
+            Dictionary<string, object> profileQuoteDictionary = await _finnhubService.GetCompanyProfile(_tradingOptions.DefaultStockSymbol);
 
-            foreach (var kvp in stockQuoteDictionary)
+
+            StockTrade stocktrade = new StockTrade() { StockSymbol = _tradingOptions.DefaultStockSymbol };
+            
+
+
+            if (stockQuoteDictionary.Count > 0 && profileQuoteDictionary.Count > 0)
             {
-                Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+                stocktrade = new StockTrade() {
+                    StockSymbol = profileQuoteDictionary["ticker"].ToString(),
+                    StockName = profileQuoteDictionary["name"].ToString(),
+                Price = ((JsonElement)stockQuoteDictionary["c"]).GetDouble()
+            };
+
             }
-
-            ViewBag.StockQuote = stockQuoteDictionary;
-
-
-
-            return View();
+            return View(stocktrade);
         }
     }
 }

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\Scripts\\CurrentPriceRetrieval.js",
+      "PackagePath": "staticwebassets\\Scripts\\CurrentPriceRetrieval.js"
+    },
+    {
       "Id": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\StyleSheet.css",
       "PackagePath": "staticwebassets\\StyleSheet.css"
     },

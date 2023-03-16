@@ -8,8 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Scripts\CurrentPriceRetrieval.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FinnhubService\FinnhubService.csproj" />
     <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
 
 </Project>

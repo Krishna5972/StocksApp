@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YT9csHlrTJS6+Yu6FR+WbI5dgVy6EhbnsPvxd7hfr4k=",
+  "Hash": "KFGverqjBA9/Po1auXptSunjykm5UOVMchdctUvIuzg=",
   "Source": "StocksApp",
   "BasePath": "_content/StocksApp",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\Scripts\\CurrentPriceRetrieval.js",
+      "SourceId": "StocksApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\",
+      "BasePath": "_content/StocksApp",
+      "RelativePath": "Scripts/CurrentPriceRetrieval.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\CurrentPriceRetrieval.js"
+    },
     {
       "Identity": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\StyleSheet.css",
       "SourceId": "StocksApp",
