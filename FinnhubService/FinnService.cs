@@ -1,4 +1,4 @@
-﻿namespace FinnhubService;
+﻿namespace Services;
 
 using StocksApp.Interfaces;
 using System.Collections.Generic;

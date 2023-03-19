@@ -1,8 +1,6 @@
 C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\bin\Debug\net6.0\FinnhubService.deps.json
 C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\bin\Debug\net6.0\FinnhubService.dll
 C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\bin\Debug\net6.0\FinnhubService.pdb
-C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\bin\Debug\net6.0\Interfaces.dll
-C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\bin\Debug\net6.0\Interfaces.pdb
 C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\obj\Debug\net6.0\FinnhubService.csproj.AssemblyReference.cache
 C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\obj\Debug\net6.0\FinnhubService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\obj\Debug\net6.0\FinnhubService.AssemblyInfoInputs.cache
@@ -13,3 +11,7 @@ C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\obj\Debug\net6
 C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\obj\Debug\net6.0\refint\FinnhubService.dll
 C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\obj\Debug\net6.0\FinnhubService.pdb
 C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\obj\Debug\net6.0\ref\FinnhubService.dll
+C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\bin\Debug\net6.0\Entities.dll
+C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\bin\Debug\net6.0\ServiceContracts.dll
+C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\bin\Debug\net6.0\ServiceContracts.pdb
+C:\Users\vamsi\OneDrive\Desktop\projects\StocksApp\FinnhubService\bin\Debug\net6.0\Entities.pdb

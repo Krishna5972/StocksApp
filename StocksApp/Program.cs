@@ -1,4 +1,4 @@
-using FinnhubService;
+using Services;
 using StocksApp.Interfaces;
 using StocksApp.Models;
 using StocksApp;

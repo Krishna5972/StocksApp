@@ -8,16 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\_Layout.cshtml" />
     <None Include="wwwroot\Scripts\CurrentPriceRetrieval.js" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FinnhubService\FinnhubService.csproj" />
-    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+    <ProjectReference Include="..\FinnhubService\Services.csproj" />
+    <ProjectReference Include="..\Interfaces\ServiceContracts.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Shared\" />
+    <UpToDateCheckInput Remove="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
 
 </Project>

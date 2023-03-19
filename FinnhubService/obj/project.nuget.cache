@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5X03GJ+rUBM/hgU9MkvY8uXF8ydmDjMAZnMMAdf0hSniC4fVOTIbENrn9D8IsupNeG065EEF/CJVkDMMzhxhzA==",
+  "dgSpecHash": "f5Pl/0XE6I3VCjYlQATHqf2hX7W+RpQqeSA49yfASsMAf4BIOFMuiVmY8fEyVtm0LDD/sA38lIWZjoBudUM2qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\FinnhubService\\FinnhubService.csproj",
+  "projectFilePath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\FinnhubService\\Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
