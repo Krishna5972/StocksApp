@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FinnhubService",
+    "\\StocksApp",
+    "\\StocksApp\\Models",
+    "\\Tests"
+  ],
+  "SelectedNode": "\\Tests\\FinnhubServiceTests.cs",
+  "PreviewInSolutionExplorer": false
+}

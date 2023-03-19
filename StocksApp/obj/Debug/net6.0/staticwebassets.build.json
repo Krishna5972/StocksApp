@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KFGverqjBA9/Po1auXptSunjykm5UOVMchdctUvIuzg=",
+  "Hash": "l4LpAaPFZ9q9u8xfVaMZ27BopilRYowidwg8bt3BmM4=",
   "Source": "StocksApp",
   "BasePath": "_content/StocksApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "StocksApp\\wwwroot",
       "Source": "StocksApp",
-      "ContentRoot": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\StocksApp\\wwwroot\\",
       "BasePath": "_content/StocksApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\Scripts\\CurrentPriceRetrieval.js",
+      "Identity": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\StocksApp\\wwwroot\\Scripts\\CurrentPriceRetrieval.js",
       "SourceId": "StocksApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\StocksApp\\wwwroot\\",
       "BasePath": "_content/StocksApp",
       "RelativePath": "Scripts/CurrentPriceRetrieval.js",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\CurrentPriceRetrieval.js"
     },
     {
-      "Identity": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\StyleSheet.css",
+      "Identity": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\StocksApp\\wwwroot\\StyleSheet.css",
       "SourceId": "StocksApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\StocksApp\\wwwroot\\",
       "BasePath": "_content/StocksApp",
       "RelativePath": "StyleSheet.css",
       "AssetKind": "All",

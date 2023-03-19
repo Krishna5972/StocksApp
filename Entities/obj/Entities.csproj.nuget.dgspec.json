@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\Entities\\Entities.csproj": {}
+    "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\Entities\\Entities.csproj": {
+    "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\vamsi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

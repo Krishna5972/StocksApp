@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mjwpGwqWVufSVIsjxz6mUjqJCLKptnxJB7mMFuGJZA7/Es7BhFBo3VJABRjw4o0PtBxqykA8gjkHJe0tagI12w==",
+  "dgSpecHash": "Cku3elCmtJN4lmuhmNVWYYp6r6TWYakIjtWl5M1VTkDZd69COM842bZFxAdS9pD3I0ASUyW30zDKLsjSkuNasw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vamsi\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\vamsi\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

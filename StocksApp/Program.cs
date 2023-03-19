@@ -1,5 +1,5 @@
 using Services;
-using StocksApp.Interfaces;
+using ServiceContracts;
 using StocksApp.Models;
 using StocksApp;
 

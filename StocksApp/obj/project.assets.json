@@ -48,13 +48,13 @@
     },
     "ServiceContracts/1.0.0": {
       "type": "project",
-      "path": "../Interfaces/ServiceContracts.csproj",
-      "msbuildProject": "../Interfaces/ServiceContracts.csproj"
+      "path": "../ServiceContracts/ServiceContracts.csproj",
+      "msbuildProject": "../ServiceContracts/ServiceContracts.csproj"
     },
     "Services/1.0.0": {
       "type": "project",
-      "path": "../FinnhubService/Services.csproj",
-      "msbuildProject": "../FinnhubService/Services.csproj"
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\StocksApp.csproj",
+      "projectUniqueName": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\StocksApp\\StocksApp.csproj",
       "projectName": "StocksApp",
-      "projectPath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\StocksApp.csproj",
+      "projectPath": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\StocksApp\\StocksApp.csproj",
       "packagesPath": "C:\\Users\\vamsi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\StocksApp\\obj\\",
+      "outputPath": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\StocksApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,11 +96,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\FinnhubService\\Services.csproj": {
-              "projectPath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\FinnhubService\\Services.csproj"
+            "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\ServiceContracts\\ServiceContracts.csproj": {
+              "projectPath": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\ServiceContracts\\ServiceContracts.csproj"
             },
-            "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\Interfaces\\ServiceContracts.csproj": {
-              "projectPath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\projects\\StocksApp\\Interfaces\\ServiceContracts.csproj"
+            "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\vamsi\\source\\repos\\Krishna5972\\StocksApp\\Services\\Services.csproj"
             }
           }
         }

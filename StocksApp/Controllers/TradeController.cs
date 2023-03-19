@@ -2,7 +2,7 @@
 using StocksApp.Models;
 using Microsoft.Extensions.Options;
 using StocksApp;
-using StocksApp.Interfaces;
+using ServiceContracts;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
 
