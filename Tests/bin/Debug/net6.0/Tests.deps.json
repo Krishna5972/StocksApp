@@ -9,6 +9,7 @@
       "Tests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.5.0",
+          "ServiceContracts": "1.0.0",
           "Services": "1.0.0",
           "StocksApp": "1.0.0",
           "coverlet.collector": "3.1.2",

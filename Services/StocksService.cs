@@ -8,11 +8,13 @@ namespace Services
     public class StocksService : IStockService
     {
 
-        readonly List<BuyOrder> _orders;
+        readonly List<BuyOrder> _buyOrders;
+        readonly List<SellOrder> _sellOrders;
 
         public StocksService()
         {
-            _orders = new List<BuyOrder>();
+            _buyOrders = new List<BuyOrder>();
+            _sellOrders = new List<SellOrder>();
         }
         public Task<BuyOrderResponse> CreateBuyOrder(BuyOrderRequest? buyOrderRequest)
         {
@@ -26,7 +28,7 @@ namespace Services
 
             buyOrder.BuyOrderID = Guid.NewGuid();
 
-            _orders.Add(buyOrder);
+            _buyOrders.Add(buyOrder);
 
             return Task.FromResult(buyOrder.ToBuyOrderResoponse());
 
@@ -34,17 +36,47 @@ namespace Services
 
         public Task<SellOrderResponse> CreateSellOrder(SellOrderRequest? sellOrderRequest)
         {
-            throw new NotImplementedException();
+            if(sellOrderRequest == null)
+                throw new ArgumentNullException(nameof(sellOrderRequest));
+
+            ValidationHelper.ModelValidation(sellOrderRequest);
+
+            SellOrder sellOrder = sellOrderRequest.ToSellOrder();
+
+            sellOrder.SellOrderID = Guid.NewGuid();
+
+            _sellOrders.Add(sellOrder);
+
+            return Task.FromResult(sellOrder.ToSellOrderResoponse());
         }
 
-        public Task<BuyOrderResponse> GetBuyOrders()
+        public Task<List<BuyOrderResponse>> GetBuyOrders()
         {
-            throw new NotImplementedException();
+            
+            return Task.FromResult(
+                
+                _buyOrders.OrderByDescending(x =>
+                x.DateAndTimeOfOrder)
+                .Select(x=>
+                x.ToBuyOrderResoponse()
+                    ).ToList()
+                
+                );
+
         }
 
-        public Task<SellOrderResponse> GetSellOrders()
+        public Task<List<SellOrderResponse>> GetSellOrders()
         {
-            throw new NotImplementedException();
+            return Task.FromResult(
+
+                _sellOrders.OrderByDescending(x =>
+                x.DateAndTimeOfOrder)
+                .Select(x =>
+                x.ToSellOrderResoponse()
+                    ).ToList()
+
+                );
         }
+
     }
 }

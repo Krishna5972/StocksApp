@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace ServiceContracts.DTO
 {
     public class SellOrderResponse { 
-    public Guid BuyOrderId { get; set; }
+    public Guid SellOrderID { get; set; }
 
     [Required(ErrorMessage = "Stock symbol should be supplied")]
     public string StockSymbol { get; set; }
@@ -30,24 +30,41 @@ namespace ServiceContracts.DTO
 
     public double TradeAmount { get; set; }
 
+        public override bool Equals(object? obj)
+        {
+            if (obj == null)
+                return false;
+            if (obj is not SellOrderResponse)
+                return false;
+            SellOrderResponse other = (SellOrderResponse)obj;
+            return SellOrderID == other.SellOrderID && StockSymbol == other.StockSymbol &&
+                StockName == other.StockName && DateAndTimeOfOrder == other.DateAndTimeOfOrder &&
+                Price == other.Price && TradeAmount == other.TradeAmount;
 
+        }
 
-}
+        public override int GetHashCode()
+        {
+            return StockSymbol.GetHashCode();
+        }
+
+    }
 
 public static class SellOrderExtensions
 {
-    public static SellOrderResponse ToBuyOrderResoponse(this SellOrder sellOrder)
+    public static SellOrderResponse ToSellOrderResoponse(this SellOrder sellOrder)
     {
 
         return new SellOrderResponse
         {
-            BuyOrderId = sellOrder.SellOrderID,
+            SellOrderID = sellOrder.SellOrderID,
             StockName = sellOrder.StockName,
             Price = sellOrder.Price,
             StockSymbol = sellOrder.StockSymbol,
             DateAndTimeOfOrder = sellOrder.DateAndTimeOfOrder,
             Quantity = sellOrder.Quantity,
             TradeAmount = sellOrder.Quantity * sellOrder.Price
+            
         };
     }
 }

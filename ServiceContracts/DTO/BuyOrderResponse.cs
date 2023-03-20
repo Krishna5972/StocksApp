@@ -30,9 +30,26 @@ namespace ServiceContracts.DTO
 
         public double TradeAmount { get; set; }
 
+        public override bool Equals(object? obj)
+        {
+            if (obj == null)
+               return false;
+            if (obj is not BuyOrderResponse)
+                return false;
+            BuyOrderResponse other = (BuyOrderResponse)obj;
+            return BuyOrderId == other.BuyOrderId && StockSymbol == other.StockSymbol &&
+                StockName == other.StockName && DateAndTimeOfOrder == other.DateAndTimeOfOrder &&
+                Price == other.Price && TradeAmount == other.TradeAmount;
 
-        
+        }
+
+        public override int GetHashCode()
+        {
+            return StockSymbol.GetHashCode();
+        }
     }
+
+    
 
     public static class BuyOrderExtensions
     {

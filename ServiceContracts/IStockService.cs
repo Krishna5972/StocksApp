@@ -22,7 +22,7 @@ namespace ServiceContracts
         /// "BuyOrders"
         /// </summary>
         /// <returns>List of BuyOrderResponse </returns>
-        Task<BuyOrderResponse> GetBuyOrders();
+        Task<List<BuyOrderResponse>> GetBuyOrders();
 
         /// <summary>
         /// Inserts a new sell order into the database table called 'sellOrders'
@@ -37,7 +37,7 @@ namespace ServiceContracts
         /// "SellOrders"
         /// </summary>
         /// <returns>Returns a list of SellOrderResponse</returns>
-        Task<SellOrderResponse> GetSellOrders();
+        Task<List<SellOrderResponse>> GetSellOrders();
 
 
     }

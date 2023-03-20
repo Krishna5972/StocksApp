@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -11,11 +12,11 @@ namespace ServiceContracts.DTO
     {
 
         [Required(ErrorMessage = "Stock symbol should be supplied")]
-        public string StockSymbol { get; set; }
-
+        public string? StockSymbol { get; set; }
+        
 
         [Required(ErrorMessage = "Stock Name should be supplied")]
-        public string StockName { get; set; }
+        public string? StockName { get; set; }
 
         // To validate DateAndTimeOfOrder (custom) we need to implement IValidatableObject interface
         public DateTime DateAndTimeOfOrder { get; set; }
@@ -26,6 +27,18 @@ namespace ServiceContracts.DTO
         [Range(1, 10000)]
         public double Price { get; set; }
 
+
+        public SellOrder ToSellOrder()
+        {
+            return new SellOrder
+            {
+                StockSymbol = StockSymbol,
+                StockName = StockName,
+                DateAndTimeOfOrder = DateAndTimeOfOrder,
+                Quantity = Quantity,
+                Price = Price
+            };
+        }
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
             List<ValidationResult> results = new List<ValidationResult>();
